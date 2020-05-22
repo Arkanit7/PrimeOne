@@ -180,9 +180,11 @@ h6 {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  top: 0;
   left: -120%;
   background-color: white;
+  -webkit-transition: 400ms ease;
+  -o-transition: 400ms ease;
+  transition: 400ms ease;
 }
 
 .show-menu {
